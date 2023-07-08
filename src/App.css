@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+}
+
+label {
+  padding-right: 30px;
+}
+
+input {
+  margin-top: 10px;
+  outline: none;
+  height: 20px;
+  padding: 5px;
+}
+
+.btnAdd {
+  height: 45px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.list_watch {
+  list-style-type: none;
+  display: flex;
+}
+
+.clock {
+  height: 100px;
+  width: 25%;
+  position: relative;
+
+}
+
+.clock button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  font-size: small;
+  padding: 0;
+}
